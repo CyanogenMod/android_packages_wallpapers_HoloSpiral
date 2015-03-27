@@ -25,7 +25,9 @@
 
     <uses-feature android:name="android.software.live_wallpaper" />
 
-    <application>
+    <application
+        android:icon="@mipmap/ic_launcher_wallpaper"
+        android:label="@string/wallpaper_label">
         <activity
                 android:name="HoloSpiralTestActivity"
                 android:label="@string/wallpaper_label"
